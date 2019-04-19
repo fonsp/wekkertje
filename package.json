@@ -1,0 +1,17 @@
+{
+  "name": "wekkertje",
+  "version": "1.0.0",
+  "description": "IoT wekkertje",
+  "main": "index.js",
+  "scripts": {
+    "web": "node index.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "wekkertje"
+  },
+  "author": "Fons van der Plas",
+  "license": "MIT"
+}
