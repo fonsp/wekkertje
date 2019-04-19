@@ -1,6 +1,6 @@
 // content of index.js
 const http = require('http')
-const port = 80
+const port = process.env.PORT || 3000
 
 const requestHandler = (request, response) => {
   console.log(request.url)
